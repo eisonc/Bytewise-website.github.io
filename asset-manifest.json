@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Bytewise-website.github.io/static/css/main.70e25f52.css",
+    "main.js": "/Bytewise-website.github.io/static/js/main.ece31590.js",
+    "index.html": "/Bytewise-website.github.io/index.html",
+    "main.70e25f52.css.map": "/Bytewise-website.github.io/static/css/main.70e25f52.css.map",
+    "main.ece31590.js.map": "/Bytewise-website.github.io/static/js/main.ece31590.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70e25f52.css",
+    "static/js/main.ece31590.js"
+  ]
+}
