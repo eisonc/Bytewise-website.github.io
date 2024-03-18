@@ -1,19 +1,4 @@
 export default function Courses() {
-    
-    var coll = document.getElementsByClassName("course-collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("course-active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "inline !important") {
-          content.style.display = "none";
-        } else {
-          content.style.display = "inline !important";
-        }
-      });
-    }
 
     return(        
         
@@ -37,11 +22,7 @@ export default function Courses() {
                                 Use the knowledge you gain here as a foundation for developing your own website or performing data calculations. 
                             </p>
                             <br/>
-                            <button type="button" className="course-collapsible"> Click to see more</button>
-                            <div className="course-collapsible-content">
-                                <p>try this</p>
-                            </div>
-                            <p className="course-collapsible-content">  {/* course-section-description  */}
+                            <p className="course-section-material">
                                 <b>Total course duration:</b> 24 hours<br/>
                                 <b>Class structure:</b> Small groups, 2-5 students <br/>
                                 <b>Coding language:</b> Python <br/>

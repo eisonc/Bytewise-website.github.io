@@ -458,9 +458,9 @@ h4 {
     min-height: 200px;
 }
 
-/* .course-section-card:hover .course-section-material {
+.course-section-card:hover .course-section-material {
     display: inline !important;
-} */
+}
 
 .course-section-card .course-section-material {
   display: none;
@@ -498,29 +498,6 @@ h4 {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-}
-
-.course-collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.course-active, .course-collapsible:hover {
-  background-color: #555;
-}
-
-.course-collapsible-content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
 }
 
 /* contact us section starts */
