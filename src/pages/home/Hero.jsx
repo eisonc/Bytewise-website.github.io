@@ -10,7 +10,9 @@ export default function HeroSection() {
                         Unlock the value of coding for everyone.
                     </h1>
                     <p className="hero-section-description">
-                        Apply coding skills to finance, law, design, medicine and more! need to add more to this *katie pls
+                        Apply coding skills to finance, law, design, medicine and more!
+                        <br/>
+                        Stay one step ahead
                     </p>   
                 </div>
             </div>

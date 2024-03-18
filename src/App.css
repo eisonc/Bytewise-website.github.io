@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 :root {
     --primary: #5e3bee;
-    --secondary: green;  
+    --secondary: #90EE90;  
     --heading--color: #282938;
     --bg-shade: #f5fcff;
     --github: #e62872;
@@ -153,9 +153,9 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 85px;
+    padding: 10px 85px;
     background: var(--white);
-    box-shadow: 0px 5px 80px 0px rgb(0, 0, 0);
+    box-shadow: 0px 5px 60px 0px rgb(0, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
@@ -177,10 +177,10 @@ h4 {
 /* navbar content  */
 .navbar-content{
     color: var(--darkblue);
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 24px;
     cursor: pointer;
 }
 
@@ -236,6 +236,7 @@ h4 {
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
+    text-align: center;
 }
 
 .hero-section-img {
