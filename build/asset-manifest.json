@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eisonc.github.io/static/css/main.70e25f52.css",
+    "main.js": "/eisonc.github.io/static/js/main.73d72ab0.js",
+    "index.html": "/eisonc.github.io/index.html",
+    "main.70e25f52.css.map": "/eisonc.github.io/static/css/main.70e25f52.css.map",
+    "main.73d72ab0.js.map": "/eisonc.github.io/static/js/main.73d72ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70e25f52.css",
+    "static/js/main.73d72ab0.js"
+  ]
+}
