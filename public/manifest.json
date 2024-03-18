@@ -1,0 +1,15 @@
+{
+  "short_name": "Bytewise Website",
+  "name": "Btyewise Coding Website v1",
+  "icons": [
+    {
+      "src": "nike.png",
+      "sizes": "100x50",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
