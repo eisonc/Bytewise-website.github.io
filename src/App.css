@@ -458,12 +458,12 @@ h4 {
     min-height: 200px;
 }
 
-.course-section-card:hover .course-section-material {
+/* .course-section-card:hover .course-section-material {
     display: inline !important;
-}
+} */
 
 .course-section-card .course-section-material {
-  display: none;
+  display: inline;
 }
 
 .course-section-material {
@@ -792,6 +792,7 @@ h4 {
 
     .navbar {
       padding-left: 15px;
+      max-height: 50vh;
     }
     .navbar-items {
       display: flex;

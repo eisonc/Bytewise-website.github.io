@@ -1,8 +1,12 @@
+import Collapsible from "react-collapsible";
+
 export default function Courses() {
 
-    return(        
-        
+      
+    return( 
         <section className = "course-section" id = "courses">
+            
+        
             <div className = "course-container">
                 <h1 className ="course-section-heading"> Available Programs </h1>
                 <p className="section-title"> Please contact us if you don't see programs which interest you. We offer tailor-made individual projects as well.
@@ -20,8 +24,7 @@ export default function Courses() {
                                 Get started with coding following our customised curriculum! Learn the basics of how code works and discover the limitless applications of coding. 
                                 <br/><br/>
                                 Use the knowledge you gain here as a foundation for developing your own website or performing data calculations. 
-                            </p>
-                            <br/>
+                            </p>                      
                             <p className="course-section-material">
                                 <b>Total course duration:</b> 24 hours<br/>
                                 <b>Class structure:</b> Small groups, 2-5 students <br/>
@@ -48,7 +51,6 @@ export default function Courses() {
                                 <br/><br/>
                                 Find out what it takes to deliver a project in the real world, from website interfaces to backend databases.
                             </p>
-                            <br/>
                             <p className="course-section-material">
                                 <b>Total course duration:</b> 3-4 months, adjusted based on students <br/>
                                 <b>Course outline:</b> Run like a univsity-style final year project, students learn the whole process of how to develop a project. 
