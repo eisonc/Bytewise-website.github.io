@@ -3,7 +3,7 @@
   "name": "Btyewise Coding Website v1",
   "icons": [
     {
-      "src": "nike.png",
+      "src": "./assets/nike.png",
       "sizes": "100x50",
       "type": "image/x-icon"
     }
