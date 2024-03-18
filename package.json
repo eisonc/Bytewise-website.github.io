@@ -1,7 +1,7 @@
 {
   "name": "versionone",
   "version": "0.1.0",
-  "homepage": "https://eisonc.github.io/eisonc.github.io"
+  "homepage": "https://eisonc.github.io/eisonc.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
