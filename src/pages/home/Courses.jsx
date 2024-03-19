@@ -9,9 +9,7 @@ export default function Courses() {
         
             <div className = "course-container">
                 <h1 className ="course-section-heading"> Available Programs </h1>
-                <p className="section-title"> Please contact us if you don't see programs which interest you. We offer tailor-made individual projects as well.
-                <br/>
-                Tap to see more
+                <p className="course-section-subheading"> Please contact us if you don't see programs which interest you. We offer tailor-made individual projects as well.
                 </p>
             </div>
             <div className ="course-section-container">
