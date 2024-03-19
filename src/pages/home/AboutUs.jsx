@@ -21,7 +21,7 @@ export default function AboutUs() {
                     <div key={index}
                     className ="fields-section-card">
                         <div className ="fields-section-img">
-                            <img src={item.src} alt ="field" />
+                            <img src={item.src} width={100} alt ="field" />
                         </div>
                         <div className="fields-title">
                             {item.title}

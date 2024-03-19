@@ -385,15 +385,15 @@ h4 {
   gap: 43px;
   grid-template-columns: repeat(5, 1fr);
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .fields-section-card {
   display: flex;
-  padding: 20px 30px 20px 30px;
+  padding: 10px;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 1px;
   flex: 1 1 0;
   border-radius: 5px;
   background: var(--grey);
@@ -405,8 +405,6 @@ h4 {
   padding: 5px;
   justify-content: center;
   align-items: center;
-  width: 140px;
-  height: 120px;
 }
 
 .fields-title {
@@ -610,7 +608,7 @@ h4 {
 
 
 /* Responsive Screens */
-  
+
   @media only screen and (max-width: 1200px) {
     .instructor-section-heading, 
     .course-section-heading, 
