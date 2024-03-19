@@ -15,9 +15,9 @@ export default function Courses() {
             <div className ="course-section-container">
                     <div className ="course-section-card">
                         <div className="course-section-card-content">
-                            <h3 className="course-section-title">
+                            <div className="course-section-title">
                                 Introduction to Coding Basics                                                         
-                            </h3>
+                            </div>
                             <p className="course-section-description">
                                 Get started with coding following our customised curriculum! Learn the basics of how code works and discover the limitless applications of coding. 
                                 <br/><br/>

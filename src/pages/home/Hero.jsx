@@ -2,7 +2,7 @@ export default function HeroSection() {
     return (
         <section id="heroSection" className="hero-section">
             <div className="hero-section-img">
-                <img src="./assets/nike.png" alt="nike logo" />
+                <img src="./assets/bw temp transparent.png" alt="bw logo" />
             </div>
             <div className="hero-section-content-box">
                 <div className="hero-section-content">                    

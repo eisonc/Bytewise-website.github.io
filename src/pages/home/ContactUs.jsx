@@ -7,11 +7,9 @@ export default function ContactUs() {
                     Contact Us
                 </h1>
                 <p className="contact-section-description">
-                    Phone: 12345678
+                    Whatsapp: +852 67324913
                     <br />
-                    Email: 123@yahoo.com
-                    <br />
-                    Address: 
+                    Email: eison@bytewisecoding.com
                 </p>
             </div>            
         </section>
