@@ -22,14 +22,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 :root {
-    --primary: #5e3bee;
+    /* --primary: #5e3bee; */
+    --primary: #0033CC;
     --secondary: #90EE90;  
     --heading--color: #282938;
-    --bg-shade: #f5fcff;
+    --bg-shade: #DCEBEC;
     --github: #e62872;
     --darkblue: #1c1e53;
     --black: #000000;
     --white: #ffffff;
+    --grey: #F5FFFC;
+    --grey--text: #DCDCDC;
+    
     }
 
     /* add webkit moz osx if needed */
@@ -198,7 +202,7 @@ h4 {
     align-items: center;
     justify-content: space-between;
     gap: 32px;
-    background-color: var(--bg-shade);
+    background-color: var(--grey);
     max-height: 100%;
 }
 
@@ -343,7 +347,7 @@ h4 {
     padding: 50px 150px 50px 150px;
     align-items: center;
     gap: 32px;
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
 .about-section-content {
@@ -356,7 +360,7 @@ h4 {
 }
 
 .about-section-title {
-    color: var(--heading--color);
+    color: var(--white);
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -367,7 +371,7 @@ h4 {
 }
 
 .about-section-description {
-    color: var(--black);
+    color: var(--grey--text);
     font-size: 20px;
     font-weight: 500;
     line-height: 26px;
@@ -392,7 +396,7 @@ h4 {
   gap: 12px;
   flex: 1 1 0;
   border-radius: 5px;
-  background: var(--bg-shade);
+  background: var(--grey);
   max-height: 200px;
 }
 
@@ -463,7 +467,7 @@ h4 {
     padding: 32px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 32px 32px 32px 32px;
     flex: 1 0 0;
     border-radius: 10px;
     background: var(--bg-shade);
@@ -489,7 +493,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 12px;
     align-self: stretch;
 }
 
@@ -500,7 +504,7 @@ h4 {
     line-height: 45px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px; 
+    padding-top: 1px; 
     padding-bottom: 20px;
     }
 
@@ -518,7 +522,7 @@ h4 {
 .contact-section {
     align-items: center;
     gap: 32px;
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
 .contact-section-content {
@@ -531,14 +535,14 @@ h4 {
 }
 
 .contact-section-title {
-    color: var(--heading--color);
+    color: var(--white);
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
 }
 
 .contact-section-description {
-    color: var(--heading--color);
+    color: var(--grey--text);
     font-size: 24px;
     font-weight: 400;
     line-height: 50px;
@@ -550,7 +554,6 @@ h4 {
   padding: 50px 130px 20px 130px;
   flex-direction: column;
   align-items: flex-start;
-  background: var(--bg-shade);
   align-items: center;
   align-self: stretch;
 }
