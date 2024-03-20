@@ -12,7 +12,7 @@ export default function Instructor() {
                     className ="instructor-section-card">
                         <div className ="instructor-section-img">
                             <div className="rounded-image">
-                                <img src={item.src} width ={120} height={120} alt ="instructor" />                        
+                                <img src={item.src} alt ="instructor" />                        
                             </div>
                         </div>
                         <div className="instructor-section-card-content">

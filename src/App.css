@@ -77,6 +77,9 @@ h1, h2, h3, h4, h5, h6, p {
 .rounded-image {
     border-radius: 50%;
     overflow: hidden;
+    width: 140px;
+    height: 140px;
+    position: relative;
 }
 
 /* global css section end */ 
@@ -195,16 +198,14 @@ h4 {
 
 /* Hero section style */
 .hero-section {
-    /* display:grid;
-    grid-template-rows: repeat(2,1fr); */
     display: block;
     padding: 133px 85px 80px;
     align-items: center;
     justify-content: space-between;
     gap: 32px;
     background-color: var(--grey);
-    max-height: 100%;
-}
+    height: 100%;
+    }
 
 .hero-section-content-box {
     display: flex;
@@ -225,7 +226,7 @@ h4 {
 }
 
 .hero-section-title {
-    color: var(--heading--color);
+    color: var(--primary);
     font-size: 74;
     font-weight: 700;
     line-height: 90px;
@@ -237,7 +238,7 @@ h4 {
 }
 
 .hero-section-description {
-    color: var(--darkblue);
+    color: var(--black);
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
@@ -309,7 +310,7 @@ h4 {
 .instructor-section-img {
     display: flexbox;
     padding: 2px;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     border-radius: 50%;
     background: black;
@@ -647,7 +648,8 @@ h4 {
       line-height: 32px;
     }
 
-    .fields-title, 
+    .fields-title,
+    .hero-section-description, 
     .instructor-section-description, 
     .course-section-description,
     .course-section-material, 
@@ -672,10 +674,17 @@ h4 {
     }
     
     .hero-section {
-      display: flex;
+      display: block;
       flex-direction: column-reverse;
       padding-bottom: 70px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
+
+    .hero-section-img > img {
+      width: 90%;
+    }
+
     .about-section-title,
     .hero-section-title,
     .hero-section-description,
@@ -767,6 +776,7 @@ h4 {
     }
     .hero-section-content-box {
       gap: 10px;
+      padding-top: 30px;
     }
     .container {
       display: flex;
@@ -784,7 +794,7 @@ h4 {
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    top: 25px;
+    top: 15px;
     right: 25px;
   }
   
