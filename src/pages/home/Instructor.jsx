@@ -11,8 +11,8 @@ export default function Instructor() {
                     <div key={index}
                     className ="instructor-section-card">
                         <div className ="instructor-section-img">
-                            <div className="rounded-image">
-                                <img src={item.src} alt ="instructor" />                        
+                            <div className="instructor-rounded-image">
+                                <img src={item.src} height={130}  alt ="instructor" />                        
                             </div>
                         </div>
                         <div className="instructor-section-card-content">

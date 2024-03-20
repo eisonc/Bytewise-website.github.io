@@ -7,14 +7,12 @@ export default function HeroSection() {
             <div className="hero-section-content-box">
                 <div className="hero-section-content">                    
                     <h2 className="hero-section-title">
-                        UNLOCK THE VALUE OF CODING FOR YOU
+                        UNLOCK THE VALUE OF CODING. FOR YOU.
                     </h2>
                     <p className="hero-section-description">
-                        Innovate with Code. 
-                        <br/>
                         Finance. Law. Design. Medicine. Engineering. 
                         <br/>
-                        Inspire your future. Code your future. 
+                        Innovate your future. Code your future. 
                     </p>   
                 </div>
             </div>
