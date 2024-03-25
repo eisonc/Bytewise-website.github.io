@@ -25,7 +25,7 @@ export default function Courses() {
                             </p>                      
                             <p className="course-section-material">
                                 <b>Total course duration:</b> 24 hours<br/>
-                                <b>Class structure:</b> Small groups, 2-5 students <br/>
+                                <b>Class structure:</b> 2-6 students per class<br/>
                                 <b>Coding language:</b> Python <br/>
                                 <b>Course content:</b>
                                 <ul>
@@ -34,6 +34,7 @@ export default function Courses() {
                                     <li>Functions</li>
                                     <li>String, arrars and data collection types</li>
                                     <li>Using libraries to draw</li>
+                                    <li>Building a basic snake game</li>
                                 </ul>
                             </p>
                         </div>
@@ -44,16 +45,16 @@ export default function Courses() {
                                 Capstone Project
                             </h3>
                             <p className="course-section-description">
-                                Work on projects for real-life clients to make a real impact. We work with leading universities and businesses to develop meaningful projects which
-                                can be delivered by high-school students. 
-                                <br/><br/>
+                                Modeled upon university final-year projects, students ideate, innovate, design and code a real-world project with specific guidelines and customer use-cases in mind. 
+                                                                <br/><br/>
                                 Find out what it takes to deliver a project in the real world, from website interfaces to backend databases.
                             </p>
                             <p className="course-section-material">
                                 <b>Total course duration:</b> 3-4 months, adjusted based on students <br/>
-                                <b>Course outline:</b> Run like a univsity-style final year project, students learn the whole process of how to develop a project. 
-                                From ideation to high-level planning, programming to project delivery, this program gives students the opportunity to discover what it takes
-                                to make a succesful project work.  
+                                <b>Class structure:</b> Small groups, 2-4 students <br/>
+                                <b>Course outline:</b> This class is run like a university class, with fixed classes and additional teaching hours for students who are keen to learn more. Students are broken up into smaller teams based on their coding experience and interests to guarantee a fully customised learning experience. 
+                                <br/><br/>
+                                In this course, students learn the complete process of how to develop a project, and have the opportunity to learn from industry professionals and university professors. 
                             </p>
                         </div>
                     </div>

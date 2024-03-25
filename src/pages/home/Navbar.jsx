@@ -34,7 +34,7 @@ function Navbar () {
     return (
         <nav className={`navbar ${navActive? "active" : ""}`}>
             <div>
-                <img src="./assets/bw temp transparent.png" width={120} alt="bw" />
+                <img src="./assets/bw main.png" width={120} alt="bw" />
             </div> 
             <a className={`nav_burger ${navActive? "active" : ""}`} 
             onClick={toggleNav}>
