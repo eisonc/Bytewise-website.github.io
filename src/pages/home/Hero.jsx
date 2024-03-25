@@ -2,17 +2,17 @@ export default function HeroSection() {
     return (
         <section id="heroSection" className="hero-section">
             <div className="hero-section-img">
-                <img src="./assets/bw temp transparent.png" alt="bw logo" />
+                <img src="./assets/bw main.png" alt="bw logo" />
             </div>
             <div className="hero-section-content-box">
                 <div className="hero-section-content">                    
                     <h2 className="hero-section-title">
-                        UNLOCK THE VALUE OF CODING. FOR YOU.
+                        CODE YOUR FUTURE. IGNITE YOUR IMPACT.
                     </h2>
                     <p className="hero-section-description">
-                        Finance. Law. Design. Medicine. Engineering. 
+                        Unlock the Power of Coding, Tailored Just For You.
                         <br/>
-                        Innovate your future. Code your future. 
+                        Discover new skills to elevate your profile
                     </p>   
                 </div>
             </div>
