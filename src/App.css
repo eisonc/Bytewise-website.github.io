@@ -160,13 +160,14 @@ h4 {
     top: 0;
     left: 0;
     right: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-items > ul {
     list-style: none;
     display: flex;
     align-items: flex-start;
-    gap: 82px;
+    gap: 62px;
     text-decoration: none;
     }
 
@@ -827,8 +828,14 @@ h4 {
 
     .navbar {
       padding-left: 15px;
-      max-height: 50vh;
+      max-height: 30vh;
     }
+
+    .navbar-logo {
+      padding-top: 10px;
+      padding-bottom: 5px;
+    }
+
     .navbar-items {
       display: flex;
     }
