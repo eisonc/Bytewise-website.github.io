@@ -13,6 +13,9 @@ export default function ContactUs() {
                     Whatsapp: +852 67324913
                     <br />
                     Email: eison@bytewisecoding.com
+                    <br />
+                    <a className="contact-section-description" href="https://maps.app.goo.gl/mZk5q5CExoXe7gfF9" target="_blank">Address</a>
+                    : 909, 9/F, Lucky Centre, 165-171 Wan Chai Road, Wan Chai, Hong Kong
                 </p>
             </div>            
         </section>
