@@ -6,7 +6,7 @@ export default function ContactUs() {
                 <h1 className="contact-section-title">
                     Contact Us
                 </h1>
-                <a className="contact-section-subtitle" href="www.bytewisecoding.com" target="_blank">
+                <a className="contact-section-subtitle" href="https://forms.office.com/r/fPxL3141EY" target="_blank">
                     Click here to contact us and learn more!
                 </a>
                 <p className="contact-section-description">
