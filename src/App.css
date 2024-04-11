@@ -549,14 +549,36 @@ h4 {
   font-size: 24px;
   font-weight: 400;
   line-height: 50px;
+  text-decoration-line: none;
 }
-
+.contact-section-subtitle:hover {
+  color: var(--secondary);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+  text-decoration-line: none;
+}
 
 .contact-section-description {
     color: var(--grey--text);
     font-size: 24px;
     font-weight: 400;
     line-height: 50px;
+}
+
+.contact-section-description-link {
+  color: var(--grey--text);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+  text-decoration-line: none;
+}
+.contact-section-description-link:hover {
+  color: var(--secondary) !important;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 50px;
+  text-decoration-line: none;
 }
 
 /* Footer Starts */

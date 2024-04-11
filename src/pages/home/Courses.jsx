@@ -32,7 +32,7 @@ export default function Courses() {
                                     <li>Operators, binary logic</li>
                                     <li>IF statements, loops</li>
                                     <li>Functions</li>
-                                    <li>String, arrars and data collection types</li>
+                                    <li>String, arrays and data collection types</li>
                                     <li>Using libraries to draw</li>
                                     <li>Building a basic snake game</li>
                                 </ul>
@@ -41,21 +41,49 @@ export default function Courses() {
                     </div>
                     <div className ="course-section-card">
                         <div className="course-section-card-content">
+                            <div className="course-section-title">
+                                Web App Development                                                         
+                            </div>
+                            <p className="course-section-description">
+                                Develop an interactive web-based application, just like WhatsApp, Zoom or Facebook and get started on the path to becoming a full-stack web developer!
+                                <br/><br/>
+                                Learn all about the popular MERN stack, from how to set up a server to getting creative developing a user interface. Our instructors will guide you to building a cool, functional and practical web app. 
+                            </p>                      
+                            <p className="course-section-material">
+                                <b>Total course duration:</b> 28 hours <i>(prior coding experience required)</i><br/>
+                                <b>Class structure:</b> 2-6 students per class<br/>
+                                <b>Coding language:</b> Javascript<br/>
+                                <b>Course content:</b>
+                                <ul>
+                                    <li>MERN Stack - MongoDB, Express, React and Node.js</li>
+                                    <li>HTML/CSS web development</li>
+                                    <li>Server theory</li>
+                                    <li>Web sockets and data routing</li>
+                                    <li>User authentication implementation</li>
+                                    <li>Build an interactive web chat app, customise and deploy it for use!</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div className ="course-section-card">
+                        <div className="course-section-card-content">
                             <h3 className="course-section-title">
-                                Capstone Project
+                                Capstone Project                                
                             </h3>
                             <p className="course-section-description">
+                                <i>Coming Soon...</i>
+                                <br/><br/>
                                 Modeled upon university final-year projects, students ideate, innovate, design and code a real-world project with specific guidelines and customer use-cases in mind. 
-                                                                <br/><br/>
+                                <br/><br/>
                                 Find out what it takes to deliver a project in the real world, from website interfaces to backend databases.
                             </p>
-                            <p className="course-section-material">
+                            {/* <p className="course-section-material">
                                 <b>Total course duration:</b> 3-4 months, adjusted based on students <br/>
                                 <b>Class structure:</b> Small groups, 2-4 students <br/>
                                 <b>Course outline:</b> This class is run like a university class, with fixed classes and additional teaching hours for students who are keen to learn more. Students are broken up into smaller teams based on their coding experience and interests to guarantee a fully customised learning experience. 
                                 <br/><br/>
                                 In this course, students learn the complete process of how to develop a project, and have the opportunity to learn from industry professionals and university professors. 
-                            </p>
+                            </p> */}
                         </div>
                     </div>
             </div>
