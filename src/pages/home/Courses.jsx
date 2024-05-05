@@ -1,22 +1,42 @@
 import Collapsible from "react-collapsible";
+import data from "../../data/index.json";
 
 export default function Courses() {
 
       
     return( 
         <section className = "course-section" id = "courses">
-            
-        
+                   
             <div className = "course-container">
                 <h1 className ="course-section-heading"> Available Programs </h1>
                 <p className="course-section-subheading"> Please contact us if you don't see programs which interest you. We offer tailor-made individual projects just for you.
                 </p>
             </div>
+            <div className="upcoming-schedule-section">
+                <table>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Age</th>
+                        <th>Course Period</th>
+                        <th>Course Timeslot</th>
+                    </tr>
+                    {data?.upcomingSchedule?.map((item, index) => {
+                        return (
+                            <tr key={index}>
+                                <td>{item.courseName}</td>
+                                <td style={{textAlign: "center", paddingLeft: "0"}}>{item.ageGroup}</td>
+                                <td style={{whiteSpace: "pre-line"}}>{item.coursePeriod}</td>
+                                <td style={{whiteSpace: "pre-line"}}>{item.courseTime}</td>
+                            </tr>
+                    )
+                })}
+                </table>
+            </div>
             <div className ="course-section-container">
                     <div className ="course-section-card">
                         <div className="course-section-card-content">
                             <div className="course-section-title">
-                                Introduction to Coding Basics                                                         
+                                Introduction to Coding                                                         
                             </div>
                             <p className="course-section-description">
                                 Get started with coding following our customised curriculum! Learn the basics of how code works and discover the limitless applications of coding. 

@@ -10,7 +10,7 @@ export default function ContactUs() {
                     Click here to contact us and learn more!
                 </a>
                 <p className="contact-section-description">
-                    Whatsapp: +852 67324913
+                    Whatsapp: +852 9634 8923
                     <br />
                     Email: info@bytewisecoding.com
                     <br />

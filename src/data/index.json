@@ -98,5 +98,36 @@
             "school": "University of Cambridge",
             "experience": "TPG"        
         }
+    ],
+
+    "upcomingSchedule": [
+        {
+            "id":"1",
+            "courseName": "Introduction to Coding (Juniors)",
+            "ageGroup": "9-12",
+            "coursePeriod": "June 22 - July 23",
+            "courseTime": "Tuesday 5pm-7pm, \nSaturday 10am-1pm"
+            },
+        {
+            "id":"2",
+            "courseName": "Introduction to Coding (B)",
+            "ageGroup": "12+",
+            "coursePeriod": "July 24, 25, 26, 29, 30, 31 \n(6 days)",
+            "courseTime": "1pm-5pm"
+        },
+        {
+            "id":"3",
+            "courseName": "Introduction to Coding (A)",
+            "ageGroup": "12+",
+            "coursePeriod": "July 3, 4, 5, 8, 9, 10 \n(6 days)",
+            "courseTime": "1pm-5pm"
+        },
+        {
+            "id":"4",
+            "courseName": "Web App Development",
+            "ageGroup": "12+",
+            "coursePeriod": "July 15, 16, 17, 18, 19, 22, 23 \n(7 days)",
+            "courseTime": "1pm-5pm"
+        }
     ]
 }
