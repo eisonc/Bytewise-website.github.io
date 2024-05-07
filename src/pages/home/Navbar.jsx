@@ -101,7 +101,7 @@ function Navbar () {
                         offset = {-70}
                         duration = {500}
                         to ="contactus"
-                        className="navbar-content">
+                        className="navbar-content" style={{fontWeight: "600"}}>
                             Contact Us
                         </Link>
                     </li>
