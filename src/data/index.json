@@ -43,6 +43,13 @@
             "experience": "Microsoft"        
         },
         {
+            "src": "./assets/instructor photos/alex_guo.jpg",
+            "name": "Alex",
+            "expertise": "Data Science, Machine Learning, AI",
+            "school": "Columbia University, Wellesley College",
+            "experience": "MIT Media Lab, General Electric"        
+        },
+        {
             "src": "./assets/instructor photos/toby_leung.jpeg",
             "name": "Toby",
             "expertise": "Full-stack development, UI/UX, AI",
