@@ -7,7 +7,7 @@ export default function ContactUs() {
                     Contact Us
                 </h1>
                 <a className="contact-section-subtitle" href="https://forms.office.com/r/fPxL3141EY" target="_blank">
-                    Click here to contact us and learn more!
+                    CLICK HERE for an online form to contact us and learn more!
                 </a>
                 <p className="contact-section-description">
                     Whatsapp: +852 9634 8923
