@@ -78,13 +78,6 @@
             "experience": "HAECO, Gogovan"        
         },
         {
-            "src": "./assets/instructor photos/issac_yiu.jpg",
-            "name": "Issac",
-            "expertise": "Data science and analytics",
-            "school": "UC Berkeley",
-            "experience": "Cornerstone"        
-        },
-        {
             "src": "./assets/instructor photos/obeida_eljundi.jpg",
             "name": "Obeida",
             "expertise": "AI, Data Science/ML, NLP",
