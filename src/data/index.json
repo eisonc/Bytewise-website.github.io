@@ -97,10 +97,17 @@
             "expertise": "Data Analytics, Advanced Excel",
             "school": "University of Cambridge",
             "experience": "TPG"        
+        },
+        {
+            "src": "./assets/instructor photos/louis_kwong.jpg",
+            "name": "Louis",
+            "expertise": "Front-end engineer, Game development",
+            "school": "University of Hong Kong",
+            "experience": "SLR Lab"        
         }
     ],
 
-    "upcomingSchedule": [
+    "summerSchedule": [
         {
             "id":"1",
             "courseName": "Introduction to Coding (Juniors)",
@@ -134,6 +141,36 @@
             "courseName": "Capstone Project",
             "ageGroup": "12+",
             "coursePeriod": "Enquire for more information",
+            "courseTime": ""
+        }
+    ],
+    "fallSchedule": [
+                {
+            "id":"5",
+            "courseName": "Website Design",
+            "ageGroup": "12+",
+            "coursePeriod": "Sep 6 to Dec 10 \nNo class from Oct 14-25",
+            "courseTime": "Wed 5:00pm-6:30pm \nFri 5:00pm-6:30pm"
+        },
+        {
+            "id":"5",
+            "courseName": "Intro to Python (I & II)",
+            "ageGroup": "12+",
+            "coursePeriod": "Sep 13 to Dec 6 \nNo class from Oct 14-25",
+            "courseTime": "Tues 5:00pm-6:30pm \nFri 3:00pm-4:30pm"
+        },
+        {
+            "id":"5",
+            "courseName": "Python for Under 12 Years Old",
+            "ageGroup": "9-12",
+            "coursePeriod": "Sep 14 to Dec 7",
+            "courseTime": "Sat 10:30am-12:30pm"
+        },
+        {
+            "id":"5",
+            "courseName": "Capstone Project",
+            "ageGroup": "13+",
+            "coursePeriod": "Sep - Dec \nEnquire for more information",
             "courseTime": ""
         }
     ]

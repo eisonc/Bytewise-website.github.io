@@ -13,14 +13,35 @@ export default function Courses() {
                 </p>
             </div>
             <div className="upcoming-schedule-section">
+                <p className="course-schedule-heading">Summer Schedule</p>
                 <table>
                     <tr>
                         <th>Course Name</th>
                         <th>Age</th>
                         <th>Course Period</th>
-                        <th>Course Timeslot</th>
+                        <th>Time</th>
                     </tr>
-                    {data?.upcomingSchedule?.map((item, index) => {
+                    {data?.summerSchedule?.map((item, index) => {
+                        return (
+                            <tr key={index}>
+                                <td>{item.courseName}</td>
+                                <td style={{textAlign: "center", paddingLeft: "0"}}>{item.ageGroup}</td>
+                                <td style={{whiteSpace: "pre-line"}}>{item.coursePeriod}</td>
+                                <td style={{whiteSpace: "pre-line"}}>{item.courseTime}</td>
+                            </tr>
+                    )
+                })}
+                </table>
+                <br/>
+                <p className="course-schedule-heading">Fall Schedule</p>
+                <table>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Age</th>
+                        <th>Course Period</th>
+                        <th>Time</th>
+                    </tr>
+                    {data?.fallSchedule?.map((item, index) => {
                         return (
                             <tr key={index}>
                                 <td>{item.courseName}</td>
@@ -44,17 +65,17 @@ export default function Courses() {
                                 Use the knowledge you gain here as a foundation for developing your own website or performing data calculations. 
                             </p>                      
                             <p className="course-section-material">
-                                <b>Total course duration:</b> 24 hours<br/>
+                                <b>Total course duration:</b> 32 hours<br/>
                                 <b>Class structure:</b> 2-6 students per class<br/>
                                 <b>Coding language:</b> Python <br/>
                                 <b>Course content:</b>
                                 <ul>
                                     <li>Operators, binary logic</li>
-                                    <li>IF statements, loops</li>
+                                    <li>If statements, for/while loops</li>
                                     <li>Functions</li>
                                     <li>String, arrays and data collection types</li>
                                     <li>Using libraries to draw</li>
-                                    <li>Building a basic snake game</li>
+                                    <li>Building a basic game</li>
                                 </ul>
                             </p>
                         </div>
@@ -87,15 +108,51 @@ export default function Courses() {
                     </div>
                     <div className ="course-section-card">
                         <div className="course-section-card-content">
+                            <div className="course-section-title">
+                                Website Design 
+                                <br/>(User Experience)                                                         
+                            </div>
+                            <p className="course-section-description">
+                                Combine coding and creativity skills to develop a fully customisable website to showcase your personal profile!
+                                <br/><br/>
+                                Find out how to make the best design decisions, animate content and create interactive elements on the website.
+                            </p>                      
+                            <p className="course-section-material">
+                                <b>Total course duration:</b> 34 hours<br/>
+                                <b>Class structure:</b> 2-6 students per class<br/>
+                                <b>Coding language:</b> HTML/CSS, Javascript<br/>
+                                <b>Course content:</b>
+                                <ul>
+                                    <li>HTML/CSS website layout, formatting and features</li>
+                                    <li>UI/UX Website Design Theory</li>
+                                    <li>Introduction to Javascript</li>
+                                    <li>Website and user interactions</li>
+                                    <li>Website building AI alternatives</li>
+                                    <li>Personal Website building, customisation and deployment</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div className ="course-section-card">
+                        <div className="course-section-card-content">
                             <h3 className="course-section-title">
                                 Capstone Project                                
                             </h3>
                             <p className="course-section-description">
-                                <i>Coming Soon...</i>
+                                <b>Launching this September 2024
+                                <br/>
+                                In Partnership with the Hong Kong Maritime Museum
+                                </b>
+                                <br/><br/>
+                                Students will be designing, building and deploying an exhibit to be displayed in the Hong Kong Maritime Museum, B-Deck, Hong Kong Port Stories Gallery.
                                 <br/><br/>
                                 Modeled upon university final-year projects, students ideate, innovate, design and code a real-world project with specific guidelines and customer use-cases in mind. 
-                                <br/><br/>
+                                <br/>
                                 Find out what it takes to deliver a project in the real world, from website interfaces to backend databases.
+                                <br/>
+                                Each of our Capstone Projects is totally unique, fully customised and culminates in the final product. 
+                                <br/><br/>
+                                <i>Contact us for more details.</i>
                             </p>
                             {/* <p className="course-section-material">
                                 <b>Total course duration:</b> 3-4 months, adjusted based on students <br/>
