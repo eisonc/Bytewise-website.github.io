@@ -101,6 +101,18 @@ function Navbar () {
                         offset = {-70}
                         duration = {500}
                         to ="contactus"
+                        className="navbar-content">
+                            FAQ/T&C
+                        </Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeMenu}
+                        activeClass="navbar-active-content"
+                        spy = {true}
+                        smooth = {true}
+                        offset = {-70}
+                        duration = {500}
+                        to ="contactus"
                         className="navbar-content" style={{fontWeight: "600"}}>
                             Contact Us
                         </Link>
