@@ -109,8 +109,7 @@ export default function Courses() {
                     <div className ="course-section-card">
                         <div className="course-section-card-content">
                             <div className="course-section-title">
-                                Website Design 
-                                <br/>(User Experience)                                                         
+                                Website Design (UI/UX)                                                         
                             </div>
                             <p className="course-section-description">
                                 Combine coding and creativity skills to develop a fully customisable website to showcase your personal profile!

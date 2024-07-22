@@ -147,9 +147,9 @@
     "fallSchedule": [
                 {
             "id":"5",
-            "courseName": "Website Design",
+            "courseName": "Website Design UI/UX",
             "ageGroup": "12+",
-            "coursePeriod": "Sep 6 to Dec 10 \nNo class from Oct 14-25",
+            "coursePeriod": "Sep 11 to Dec 11 \nNo class from Oct 14-25",
             "courseTime": "Wed 5:00pm-6:30pm \nFri 5:00pm-6:30pm"
         },
         {
