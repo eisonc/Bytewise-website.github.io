@@ -135,7 +135,7 @@ export default function Courses() {
                     <div className ="course-section-card">
                         <div className="course-section-card-content">
                             <h3 className="course-section-title">
-                                Capstone Project                                
+                                Capstone Project
                             </h3>
                             <p className="course-section-description">
                                 <b>Launching this September 2024
