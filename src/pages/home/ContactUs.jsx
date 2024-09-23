@@ -14,7 +14,7 @@ export default function ContactUs() {
                     <br />
                     Email: info@bytewisecoding.com
                     <br />
-                    <a className="contact-section-description" href="https://maps.app.goo.gl/mZk5q5CExoXe7gfF9" target="_blank">Address: 909, 9/F, Lucky Centre, 165-171 Wan Chai Road, Wan Chai, Hong Kong</a>
+                    <a className="contact-section-description" href="https://maps.app.goo.gl/DtHbfKjR9WgGxu3CA" target="_blank">Address: 2204, 22/F, Chinachem Johnston Plaza, 178-186 Johnston Road, Wan Chai, Hong Kong</a>
                     <br/>
                     <a className="contact-section-description-link" href="./assets/FAQTC/Bytewise FAQ & Terms and Conditions_v1.pdf" target="_blank" rel="noopener noreferrer">For FAQ and Terms & Conditions information, please click here</a>                    
                 </p>
