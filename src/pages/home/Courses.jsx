@@ -145,12 +145,13 @@ export default function Courses() {
                             <p className="course-section-material">
                                 <b>Total course duration:</b> 15 hours<br/>
                                 <b>Class structure:</b> 2-6 students per class<br/>
-                                <b>Coding language:</b> None! No-code/low-code platform<br/>
+                                <b>Coding language:</b> None! Taught using a graphical learning platform<br/>
                                 <b>Course content:</b>
                                 <ul>
                                     <li>Computational logic, and programming theory</li>
                                     <li>AI Fundamentals - what is it and how does it work?</li>
                                     <li>Computer vision and image recognition behind the scenes</li>
+                                    <li>What input parameters does AI need to function?</li>
                                 </ul>
                             </p>
                         </div>
