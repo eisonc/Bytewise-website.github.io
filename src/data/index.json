@@ -107,41 +107,27 @@
         }
     ],
 
-    "summerSchedule": [
+    "xmasSchedule": [
         {
             "id":"1",
-            "courseName": "Introduction to Coding (Juniors)",
-            "ageGroup": "9-12",
-            "coursePeriod": "June 22 - July 23",
-            "courseTime": "Tuesday 5pm-7pm, \nSaturday 10am-1pm"
+            "courseName": "Stanford AI Playground A",
+            "ageGroup": "12+",
+            "coursePeriod": "Dec 16 - Dec 20 (5 days)",
+            "courseTime": "1pm-4pm"
         },
         {
             "id":"2",
-            "courseName": "Introduction to Coding (A)",
+            "courseName": "Stanford AI Playground B",
             "ageGroup": "12+",
-            "coursePeriod": "July 3, 4, 5, 8, 9, 10 \n(6 days)",
-            "courseTime": "1pm-5pm"
+            "coursePeriod": "Dec 30 - Jan 3 (5 days)",
+            "courseTime": "1pm-4pm"
         },
         {
             "id":"3",
-            "courseName": "Introduction to Coding (B)",
+            "courseName": "Website Design UI/UX",
             "ageGroup": "12+",
-            "coursePeriod": "July 24, 25, 26, 29, 30, 31 \n(6 days)",
-            "courseTime": "1pm-5pm"
-        },
-        {
-            "id":"4",
-            "courseName": "Web App Development",
-            "ageGroup": "12+",
-            "coursePeriod": "July 15, 16, 17, 18, 19, 22, 23 \n(7 days)",
-            "courseTime": "1pm-5pm"
-        },
-        {
-            "id":"5",
-            "courseName": "Capstone Project",
-            "ageGroup": "12+",
-            "coursePeriod": "Enquire for more information",
-            "courseTime": ""
+            "coursePeriod": "December 16, 18, 20, 23, 27, 30 (6 days)",
+            "courseTime": "10am-1pm"
         }
     ],
     "fallSchedule": [
