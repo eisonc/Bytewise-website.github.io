@@ -13,7 +13,7 @@ export default function Courses() {
                 </p>
             </div>
             <div className="upcoming-schedule-section">
-                <p className="course-schedule-heading">Summer Schedule</p>
+                <p className="course-schedule-heading">Fall Schedule</p>
                 <table>
                     <tr>
                         <th>Course Name</th>
@@ -21,7 +21,7 @@ export default function Courses() {
                         <th>Course Period</th>
                         <th>Time</th>
                     </tr>
-                    {data?.summerSchedule?.map((item, index) => {
+                    {data?.fallSchedule?.map((item, index) => {
                         return (
                             <tr key={index}>
                                 <td>{item.courseName}</td>
@@ -33,7 +33,7 @@ export default function Courses() {
                 })}
                 </table>
                 <br/>
-                <p className="course-schedule-heading">Fall Schedule</p>
+                <p className="course-schedule-heading">Christmas Intensive Schedule</p>
                 <table>
                     <tr>
                         <th>Course Name</th>
@@ -41,7 +41,7 @@ export default function Courses() {
                         <th>Course Period</th>
                         <th>Time</th>
                     </tr>
-                    {data?.fallSchedule?.map((item, index) => {
+                    {data?.xmasSchedule?.map((item, index) => {
                         return (
                             <tr key={index}>
                                 <td>{item.courseName}</td>
@@ -128,6 +128,30 @@ export default function Courses() {
                                     <li>Website and user interactions</li>
                                     <li>Website building AI alternatives</li>
                                     <li>Personal Website building, customisation and deployment</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div className ="course-section-card">
+                        <div className="course-section-card-content">
+                            <div className="course-section-title">
+                                Stanford AI Playground                                                         
+                            </div>
+                            <p className="course-section-description">
+                                Learn AI fundamentals and logic in this short crash course designed specifically for high school students by educators at Stanford University
+                                <br/><br/>
+                                Find out what goes on behind Chat-GPT, and what makes AI work, without writing a single line of code!
+                            </p>                      
+                            <p className="course-section-material">
+                                <b>Total course duration:</b> 15 hours<br/>
+                                <b>Class structure:</b> 2-6 students per class<br/>
+                                <b>Coding language:</b> None! Taught using a graphical learning platform<br/>
+                                <b>Course content:</b>
+                                <ul>
+                                    <li>Computational logic, and programming theory</li>
+                                    <li>AI Fundamentals - what is it and how does it work?</li>
+                                    <li>Computer vision and image recognition behind the scenes</li>
+                                    <li>What input parameters does AI need to function?</li>
                                 </ul>
                             </p>
                         </div>

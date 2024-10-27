@@ -4,6 +4,7 @@ import Courses from "../Courses";
 import Instructor from "../Instructor";
 import ContactUs from "../ContactUs";
 import Footer from "../Footer";
+import React from 'react';
 
 
 export default function Home() {
